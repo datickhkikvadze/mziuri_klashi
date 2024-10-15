@@ -1,0 +1,30 @@
+.head-one {
+    color: rgb(0, 0, 255) ;
+    font-size: 50px;
+}
+#headOne{
+    color: yellow;
+}
+.head-two {
+    color: green;
+    font-size: 40px;
+}
+
+.same-head{
+    background-color: aqua;
+}
+
+.first-box{
+    width: 200px;
+    height: 200px;
+    background-color: lightblue ;
+    border: 5px solid red;
+}
+.first-box,h1{
+    background-color: blue ;
+    color: #000;
+}
+.first-box .first-box-h1{
+    background-color: blue ;
+    color: #000;
+}
