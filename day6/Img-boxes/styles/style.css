@@ -1,0 +1,30 @@
+body{
+    background-color: #000;
+}
+/* h1 {
+    color: blue;
+}
+img{
+    width: 60%;
+    height: 50%;
+    border-radius: 20px;
+} */
+
+.same-box{
+    width: 200px;
+    height: 200px;
+    border: 2px solid #226aa5;
+}
+.first-box{
+    background-image: url(/day6/Img-boxes/images/image2.jpg);
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: bottom center; 
+}
+
+
+/* 
+!background-size: cover; contain; fix-size;
+!background-repeat: no-repeat; repeat-x; repeat-y;
+!background-position: bottom , center ,left ,right ,top ,bottom center ,right center; 
+ */
