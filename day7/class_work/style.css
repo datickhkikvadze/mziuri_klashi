@@ -17,11 +17,21 @@ img{
     height: 200px;
     border: 2px solid #226aa5;
 }
-.first-box{
-    background-image: url(/day6/Img-boxes/images/image2.jpg);
-    background-size: 100px;
+.first-box img{
+    width: 100px;
+    height: auto;
+    margin: 110px 0 0;
+
+}
+
+.first-box:hover{
+    color: #226aa5;
+    width: 500px;
+    background-image: url(/day7/class_work/images/image2.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: bottom center; 
+    box-shadow: -10px -10px 25px green,
+    0 10px 25px blue;
 }
 
 
@@ -32,15 +42,11 @@ img{
  */
 
 .seccond-box{
-     /* background-image: linear-gradient(to left ,red,blue,yellow); */
-     background-image: radial-gradient(green , blue 5%, blueviolet 5%);
-     /* margin: auto; */
-     /* margin: 50px; */
-     /* margin: 100px 0 60px 40px; */
-     /* margin: 70px 100px; */
+     background-image: radial-gradient(white 5%, blue,blue,white);
+     height: 300px;
      margin: 100px auto 100px;
-     box-shadow: 5px 0 red,
-     -5px 0 blue;
+     /* box-shadow: 5px 0 red,
+     -5px 0 blue; */
 
 }
 .third-box{
