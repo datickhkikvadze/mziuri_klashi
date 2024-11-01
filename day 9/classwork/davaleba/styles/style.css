@@ -1,0 +1,21 @@
+.same-box{
+    width: 100%;
+    height: 90vh;
+    border: 4px solid green;
+    margin: 10px;
+}
+.first-box{
+    background-color: aqua;
+}
+.seccond-box{
+    background-color: lightblue;
+}
+.third-box{
+    background-color: lightgreen;
+}
+.fourth-box{
+    background-color: lightpink;
+}
+html {
+    scroll-behavior: smooth;
+}

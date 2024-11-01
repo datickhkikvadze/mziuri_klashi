@@ -1,0 +1,20 @@
+.parent-box{
+    width: 450px;
+    height: 450px;
+    border: solid 3px salmon;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    /* align-items: center; */
+}
+/* ! justify-content: center,flex-start,flex-end,space-between,space-areound,space-evenly */
+
+/* ! align-items: flex-end,flex-start,center */
+.same-box{
+    width: 100px;
+    height: 100px;
+    border: 3px solid lightseagreen;
+    /* margin: 20px; */
+    background-image: linear-gradient(to left top,lightseagreen,lightblue,lightpink);
+    
+}
