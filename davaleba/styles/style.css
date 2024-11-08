@@ -1,0 +1,351 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(20, 19, 19);
+}
+html{
+    scroll-behavior: smooth;
+}
+.Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 20px;
+}
+
+#nav-logo {
+    margin-left: 25px;
+    font-family: monospace;
+    cursor: pointer;
+    font-size: 40px;
+    font-weight: bolder;
+    color: rgb(255, 136, 0);
+    text-shadow: 5px 3px 2px rgb(168, 168, 168);
+    transition: 0.5s;
+}
+
+#nav-logo:hover {
+    color: #58dda3;
+    text-shadow: 5px 3px 2px whitesmoke;
+}
+
+.Header-nav {
+    display: flex;
+}
+
+.Header-nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 90px;
+}
+
+.Header-nav,a {
+    color: white;
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 30px; 
+    transition: 0.3s;
+    text-shadow: none;
+}
+
+.Header-nav,a:hover{
+    color: rgb(255, 136, 0);
+    text-shadow: 5px 5px 3px whitesmoke;
+}
+
+.searchBar {
+    padding: 5px;
+    margin-right: 100px;
+    font-size: 20px;
+    color: snow;
+    border-radius: 10px;
+    border: 2px solid #333;
+    outline: none;
+    background-color: transparent;
+    width: 400px;
+    height: 40px;
+}
+.Active-Film-Card {
+    display: flex;
+    background-color: #222;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    margin: 15px;
+    height: 800px;
+}
+
+.Main-Film {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    color: white;
+    width: 70%; 
+}
+
+.Film-image img {
+    width: 75%;  
+    height: auto;
+    border-radius: 15px;
+    margin-bottom: 20px;  
+}
+
+.Film-details {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.Film-details h3 {
+    font-size: 50px;
+}
+
+.Film-Desc {
+    gap: 20px;
+    transition: 0.4s;
+    cursor: pointer;
+    color: snow;
+}
+#Description{
+    transition: 0.5s;
+}
+#Description-text{
+    transition: 0.5s;
+}
+#Description:hover{
+    color: rgb(255, 136, 0);
+    text-shadow: 5px 5px 3px whitesmoke;
+}
+#Description-text:hover{
+    color: rgb(255, 136, 0);
+    text-shadow: 5px 5px 3px whitesmoke;
+}
+
+.Film-rating {
+    font-size: 30px;
+    color: #f1c40f;
+    
+}
+
+.hashtags-list {
+    display: flex;
+    gap: 10px;
+}
+
+.hashtags-list span {
+    background-color: #444;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 25px;
+    font-size: 14px;
+    border: 2px solid snow;
+}
+
+.play-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: min-content;
+    margin-left: 450px;
+    margin-top: -220px;
+}
+
+.play-btn {
+    background-color: #58dda3;
+    color: white;
+    width: 120px;
+    height: 60px;
+    border: none;
+    padding: 15px;
+    border-radius: 15px;
+    font-size: 24px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.play-btn:hover {
+    box-shadow: 5px 5px 5px #58dda3;
+}
+
+.recomended-box {
+    width: 25%;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 15px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+    text-align: center;
+}
+
+.recomended-box img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.recomended-box h1 {
+    color: snow;
+    font-size: 40px;
+    margin: 0; 
+}
+
+.Popular-Films {
+    text-align: center;
+    padding: 20px;
+}
+
+.Popular-Films h1 {
+    color: #fff;
+    font-size: 36px;
+    font-family: monospace;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.Popular-Films {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.Popular-Film {
+    background-color: #333;
+    border-radius: 15px;
+    padding: 15px;
+    width: 460px; 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.Popular-Film img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.Footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+.Footer div {
+    width: 20%;
+}
+
+.Footer h4 {
+    color: azure;
+    font-size: 23px;
+    font-family: sans-serif;
+    text-shadow: none;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.Footer h2 {
+    color: azure;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-family: sans-serif;
+    text-shadow: none;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.Footer h2,h4 {
+    margin-top: 30px;
+}
+.Footer p {
+    color: azure;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    font-size: 23px;
+    font-family: sans-serif;
+    text-shadow: none;
+    transition: 0.3s;
+}
+
+.Footer-logo{
+    font-family: monospace;
+    font-size: 40px;
+    font-weight: bolder;
+    color: rgb(255, 136, 0);
+    text-shadow: 5px 3px 2px rgb(168, 168, 168);
+    cursor: pointer;
+    transition: 0.5s;
+    margin: 16px 0px 40px 16px;
+}
+.bi-facebook{
+    color: #0863F7;
+    transition: 0.5s;
+}
+.bi-facebook:hover{
+    text-shadow: 5px 5px 10px white; 
+}
+
+.bi-github:hover {
+    text-shadow: 5px 5px 10px white; 
+}
+
+.bi-discord:hover {
+    text-shadow: 5px 5px 10px white; 
+}
+
+.bi-github{
+    color: black;
+    transition: 0.5s;
+}
+.bi-discord{
+    color: #5562EA;
+    transition: 0.5s;
+}
+.Footer-social-icons {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+}
+
+.social-icon {
+    font-size: 40px;
+    text-shadow: none;
+}
+.bi-arrow-up-circle-fill{
+    color: rgb(255, 136, 0);
+    background-color: #333;
+    font-size: 50px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+#up:hover{
+    text-shadow: 4px 4px 15px whitesmoke;
+}
+.Footer-logo:hover{
+    color: #58dda3;
+    text-shadow: 5px 3px 2px whitesmoke;
+    
+}
+.Footer,p:hover{
+    color: rgb(255, 136, 0);
+    text-shadow: 5px 5px 3px whitesmoke;
+}
+
+.Footer,h4:hover{
+    color: rgb(255, 136, 0);
+    text-shadow: 5px 5px 3px whitesmoke;
+}
+.Footer,h2:hover{
+    color: rgb(255, 136, 0);
+    text-shadow: 5px 5px 3px whitesmoke;
+}
