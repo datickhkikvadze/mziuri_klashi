@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Oswald:wght@200..700&display=swap');
+.box1{
+    width: 300px;
+    height: 300px;
+    border: 2px solid #ffffff;
+    color: var(--main-color);
+}
+body{
+    background-color: var(--bg-color);
+}
+.box2{
+    color: var(--main-color);
+    width: 300px;
+    height: 400px;
+    border: 6px solid red;
+
+}

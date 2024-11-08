@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Oswald:wght@200..700&display=swap');
+
+.first-box{
+    width: 500px;
+    height: 500px;
+    border: 3px solid #fff;
+    font-family: "Oswald";
+}
+p{
+    font-family: var(--main-font);
+    color: #fff;
+    line-height: 3;
+    font-style: italic;
+    font-weight: bolder;
+    text-decoration: wavy;
+    text-align: center;
+    /* text-transform: capitalize; */
+     text-transform: uppercase; 
+}
+a{
+    text-decoration: none;
+}
+h1{
+    font-family: "Oswald";
+}
+body{
+    background-color: var(--bg-color);
+}
