@@ -1,0 +1,40 @@
+.same-box{
+    width: 200px;
+    height: 200px;
+    border: 2px solid royalblue;
+}
+
+.first-box{
+    background-image: linear-gradient(to left bottom,pink, blue, green, yellow);
+    transform: translate(50px,50px);
+    /* transform: translateX(50px); */
+    /* transform: translateY(50px); */
+    /* border-radius: 50%; */
+    border-radius: 50px;
+}
+
+.seccond-box{
+    background-image: radial-gradient(red, yellow, green, blue);
+    transform: translate(50px,-50px);
+}
+.third-box{
+    background-image: radial-gradient(red, yellow, green, blue);
+    margin: 80px auto;
+    transform: skewY(-45deg);
+}
+.fourth-box{
+    background-image: radial-gradient(rgb(0, 247, 255), yellow, green, blue);
+    margin: 120px auto;
+    transform: scale(0.5);
+    scale: (0.5);
+    translate: 50px;
+}
+.fivth-box{
+    background-image: radial-gradient(red, yellow, green, blue);
+    transform: rotate(45deg);
+    margin: 160px auto; 
+    transition: all 3s ease-in;
+}
+.fivth-box:hover{
+    transform: rotate(360deg);
+}

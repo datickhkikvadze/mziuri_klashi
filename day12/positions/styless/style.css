@@ -1,0 +1,36 @@
+.same-box{
+    width: 200px;
+    height: 200px;
+    border: 2px solid blueviolet;
+}
+.first-box{
+    background-image: linear-gradient(to right top, red,white,yellow,green,blue);
+    position: relative;
+    left: 43%;
+    /* top: 205px; */
+}
+.second-box{
+    background-image: linear-gradient(to right top, rgb(0, 174, 255),rgb(109, 19, 97),rgb(0, 255, 170),rgb(94, 128, 0),rgb(71, 156, 172));
+    position: absolute;
+    left: 43%;
+    /* top: 205px; */
+    
+}
+.parent-box{
+    width: 200px;
+    height: 200px;
+    background-color: dimgrey;
+    border: 2px solid blueviolet;
+    position: relative;
+    left: 30%;
+    top: 100px;
+}
+.child-box{
+    width: 100px;
+    height: 100px;
+    background-color: crimson;
+    border: 2px solid blueviolet;
+    position: absolute;
+    left: -10%;
+    top: -10%;
+}
