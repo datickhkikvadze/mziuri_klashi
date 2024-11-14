@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--main-font);
+}
+
+.text-left-side{
+    margin-top: 200px;
+    margin-left: 70px;
+}
+.text-left-side h1{
+    font-size: 70px;
+}
+
+.architects{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-right-side{
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+    margin-right: 70px;
+}
+.card p{
+    width: 370px;
+    font-size: larger
+
+}
+
+.card h2{
+    font-size: 35px;
+}
+
