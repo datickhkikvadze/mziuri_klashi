@@ -1,0 +1,51 @@
+@import url(config.css);
+
+
+.first-box{
+    width: 250px;
+    height: 250px;
+    border: 3px solid green;
+    background-color: tomato;
+    /* animation-name: animate; */
+    /* animation-duration: 5s; */
+    /* animation-delay: 0s; */
+    /* animation-iteration-count: infinite; */
+    /* animation-timing-function: ease-in-out; */
+    /* animation-timing-function: ease-in; */
+    /* animation-timing-function: ease; */
+    /* animation-direction: alternate; */
+    /* animation-direction: reverse; */
+    /* animation-direction: alternate-reverse; */
+    animation: animate 3s 1s infinite alternate;
+}
+
+/* @keyframes animate{
+    from{
+        background-color: aqua;
+    }
+    to{
+        background-color: seagreen;
+    }
+} */
+@keyframes animate {
+    0% {
+        transform: translate(0px, 0px); 
+    }
+    25% {
+        transform: translate(500px, 0px); 
+    }
+    50% {
+        transform: translate(500px, 300px); 
+    }
+    75% {
+        transform: translate(0px, 300px); 
+    }
+    100% {
+        transform: translate(0px, 0px); 
+    }
+}
+    
+
+
+
+
