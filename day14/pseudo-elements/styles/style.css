@@ -1,0 +1,37 @@
+.first-box{
+    width: 250px;
+    height: 50vh;
+    border: 2px solid green;
+    background-color: rgba(253, 148, 136, 0.5);
+}
+/* .first-box p::first-letter{
+    font-size: 35px;
+    color: green;
+}
+.first-box p::first-line{
+    font-size: 25px;
+    background-color: aquamarine;
+} */
+/* .first-box li:nth-child(even){
+    font-size: 25px;
+    background-color: aquamarine;
+} */
+/* .first-box li:nth-child(odd){
+    font-size: 25px;
+    background-color: aquamarine;
+} */
+.first-box li:nth-child(3n -1){
+    font-weight: bold;
+    background-color: rgb(227, 255, 127);
+}
+.first-box li:last-child{
+    font-weight: bold;
+    color: chocolate;
+}
+
+p::before{
+    content: "☂";
+}
+p::after{
+    content: "〠";
+}
