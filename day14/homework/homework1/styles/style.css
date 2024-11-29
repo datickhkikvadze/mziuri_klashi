@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    overflow: hidden;
+}
+.sky{
+    width: 100%;
+    background-color: aquamarine;
+    height: 50vh;
+}
+.grass{
+    width: 100%;
+    background-color: green;
+    height: 65vh;
+    position: absolute;
+    top: 35vh;
+}
+.road{
+    width: 100%;
+    background-color: rgb(46, 43, 43);
+    height: 35vh;
+    position: absolute;
+    top: 65vh;
+    border: 10px solid rgb(75, 70, 70);
+}
+.road-dots{
+    width: 100%;
+    background-color: rgb(46, 43, 43);
+    border-top: 10px dashed white;
+    height: 17.5vh;
+    position: absolute;
+    bottom: 0;
+    
+}
+.mario{
+    width: 7vw;
+    height: 15vh;
+}
+.mario1 {
+    animation: mario1 10s linear 1 0s, last-part 10s linear 1 13s;
+    position: relative;
+    left: 100vw;
+}
+
+.mario2 {
+    animation: mario2 10s linear 1 5s, last-part 10s linear 1 13s;
+    position: absolute;
+    top: 18vh;
+    left: 100vw;
+    z-index: 999;
+}
+
+.cloud {
+    width: 17vw;
+    height: 20vh;
+}
+
+@keyframes mario1 {
+    0% {
+        transform: translateX(-100vw); 
+    }
+    50% {
+        transform: translateX(102vw); 
+    }
+    100% {
+        transform: translateX(102vw); 
+    }
+}
+
+@keyframes mario2 {
+    0% {
+        transform: translateX(100vw);
+    }
+    50% {
+        transform: translateX(-106vw);
+    }
+    100% {
+        transform: translateX(-106vw);
+    }
+}
+
+@keyframes last-part {
+    0% {
+        transform: translateX(-100vw);
+    }
+    50% {
+        transform: translateX(100vw);
+    }
+    100% {
+        transform: translateX(100vw);
+    }
+}
