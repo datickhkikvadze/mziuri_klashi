@@ -1,0 +1,20 @@
+
+
+/* 
+    ! 0-480 -sm size - sm-mobile size
+    ! 481-760px -medium size -m -tablet size
+    ! 761-990px -large size -l -desktop size
+    ! 991-1200px -extra large size -xl -2k monitor size
+    ! 1200-1400px -extra extra large size -xxl -4k monitor size and greater
+    
+
+
+    min-width: -ამ სიგანიდან
+    max-width: -ამ სიგანემდე
+    max-height: -ამ სიმაღლიდან
+    max-height: -ამ სიმაღლემდე
+
+
+
+
+*/

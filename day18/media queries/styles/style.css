@@ -1,0 +1,30 @@
+@import url(./config.css);
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first-box{
+    width: 250px;
+    height: 250px;
+    border: 2px solid green;
+}
+@media screen and (min-width: 768px) and (max-width: 998px){
+    body{
+        background-color: aquamarine;
+    }
+    .first-box{
+        display: none;
+    }
+}
+@media screen and (min-width: 450px) and (max-width: 766px){
+    body{
+        background-color: blue;
+    }
+    .first-box{
+        background-color: crimson;
+        border: 5px solid black;
+    }
+}
