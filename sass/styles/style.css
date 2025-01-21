@@ -1,0 +1,18 @@
+.first-box {
+  width: 40%;
+  height: 40vh;
+  border: 2px solid red;
+  background-color: rgb(246, 218, 62);
+}
+.first-box h1 {
+  font-size: 25px;
+  color: rgb(104, 93, 33);
+}
+.first-box button {
+  padding: 20px;
+  background-color: coral;
+}
+.first-box button:hover {
+  background-color: darkred;
+  color: blue;
+}/*# sourceMappingURL=style.css.map */

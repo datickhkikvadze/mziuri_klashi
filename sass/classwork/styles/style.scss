@@ -1,0 +1,17 @@
+@import "./vars.scss";
+@import "./funcs.scss";
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body {
+    overflow-x: hidden;
+}
+.header{
+    @include flex(red);
+}
+.footer{
+    @include flex(green);
+    
+}

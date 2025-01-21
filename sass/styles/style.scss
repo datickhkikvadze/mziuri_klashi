@@ -1,0 +1,22 @@
+@import "./vars.scss";
+
+.first-box{
+    width: 40%;
+    height: 40vh;
+    border: 2px solid red;
+    background-color: $main_goldColor;
+
+    h1{
+        font-size: 25px;
+        color: $main_color;
+    }
+    button{
+        padding: 20px;
+        background-color: coral;
+
+        &:hover{
+            background-color: darkred;
+            color: blue;
+        }
+    }
+}
