@@ -65,10 +65,4 @@
 
 
 
-// let man = document.getElementById('man');
-// let clickCount = 0
-// man.addEventListener('click', () => {
-//     clickCount ++
-//     console.log('clicked:' + clickCount);
-//     man.textContent = 'clicked:' + clickCount
-// })
+
