@@ -1,0 +1,58 @@
+body {
+  background-image: url(images.jpg);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: -250px;
+  width: 250px;
+  height: 100%;
+  background-color: #333;
+  transition: left 0.3s ease;
+  z-index: 999;
+}
+
+.sidebar-content {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  color: white;
+}
+
+.sidebar-item {
+  margin: 10px 0;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.hamburger {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.hamburger .line {
+  width: 30px;
+  height: 4px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: all 0.3s ease;
+}
+
+.hamburger .line:nth-child(1) {
+  position: relative;
+}
+
+.hamburger .line:nth-child(2) {
+  position: relative;
+}
+
+.hamburger .line:nth-child(3) {
+  position: relative;
+}
